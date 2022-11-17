@@ -13,7 +13,7 @@ class Currency {
 
     // Add types to the constructor parameters.
 
-    constructor(name, code, symbol) {
+    constructor(name: string, code: string, symbol: string) {
         this.name = name;
         this.code = code;
         this.symbol = symbol;
